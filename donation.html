@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Donation</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <div class="container-fluid">
+		<nav id="navigation" class="navbar navbar-expand-lg">
+			<a href="index.html" class="navbar-brand" id="brand">Trust</a>
+			<button type="button" id="btn-nav" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<div id="navigation-items" class="navbar-nav mx-auto">
+					<a href="index.html" id='active' class="nav-item nav-link active px-2">Home</a>
+					<a href="#index.html" class="nav-item nav-link px-2">About </a>
+          <a href ="index.html" class="nav-item nav-link px-2">Contact</a>
+				</div>
+				<div class="navbar-nav mx-auto">
+					<a href="#" id="donatebtn" class="nav-item nav-link btn"  onclick= "location.href = 'donation.html'">Donate</a>
+				</div>
+			</div>
+		</nav>
+
+        <!-- Adding image -->
+        <img id="image03" src="Assests/s5.jpg" class="rounded float-left" alt="...">
+
+        <!-- Adding container -->
+        <div class="donation">
+            <h1 id="donation_heading"> Welcome Donor! </h1>
+               <p id="text_donor">Service to others is the rent you pay for your room here on earth. </p>
+               <p id="text_donor">You are one step Back! click the button to donate. <br>
+                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_J8cTDEpNxgn67h" async> </script> </form>
+                
+        
+          </div>
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+  }
+
+  @media only screen and (max-width:600px){
+    body{
+      background-color: rgb(255, 255, 255);
+    }
+    .text-land{
+      width: 500px;
+      text-align: left;
+    }
+    #heading{
+      font-size: 45px;
+    }
+    #introduction{
+      font-size: 20px;
+    }
+    #navigation{
+      color: rgb(10, 9, 9);
+      color: rgb(8, 8, 8);
+    }
+    #navigation-items a {
+      position: relative;
+      width: 100%;
+      color: rgb(12, 11, 11);
+      margin-left: 75px;
+      font-size: 20px;
+    }
+    .navbar-toggle .icon-bar {
+      background-color: #fff;
+  }
+
+    #btn{
+      background-color: #4548ed;
+      color: white;
+      position: relative;
+      font-size: 20px;
+      width: 100px;
+      height:50px;
+      left: 250px;
+    }
+
+    #image01{
+      width: 500px;
+      position: relative;
+      top: 350px;
+      left: 0px;
+
+    }
+    #image02{
+      display:none;
+    }
+
+    .about{
+      position: relative;
+      top: 400px;
+    }
+    #about_us{
+      font-size:45px;
+    }
+    #about_para{
+      font-size:20px;
+      text-align:left;
+      line-break: none;
+    }
+    #about_para br{
+      display: none;
+    }
+
+
+    #btn1{
+      background-color: #4548ed;
+      color: white;
+      position: relative;
+      font-size: 20px;
+      width: 100px;
+      height:50px;
+      top: 75px;
+    }
+
+
+    #text{
+      position: relative;
+      top: 600px;
+      color: black;
+    }
+
+    .donation{
+      position: relative;
+      left: 0px;
+      top: 50px;
+    }
+    
+    #image03{
+      width: 450px;
+      left: 0px;
+      top: 25px;
+    }
+    
+    form{
+      position: relative;
+      left: 65px;
+      top: 20px;
+    }
+  }
